@@ -1,0 +1,30 @@
+# ==============================================================================
+# AMR Sub-3D Sensor Fusion Dashboard — Python Requirements
+# Target: NVIDIA Jetson Orin Nano, JetPack 6.x, Python 3.10
+# ==============================================================================
+#
+# Install all Python dependencies with:
+#   pip3 install -r requirements.txt
+#
+# NOTE: tensorrt and rclpy are NOT pip-installable on Jetson.
+#   - tensorrt ships with JetPack 6 — verify: python3 -c "import tensorrt"
+#   - rclpy ships with ROS 2 Humble — source /opt/ros/humble/setup.bash first
+# ==============================================================================
+
+# GUI Framework
+PyQt5>=5.15.0
+
+# 2D / 3D Plotting (used for depth heatmap and 3D point cloud view)
+pyqtgraph>=0.13.3
+PyOpenGL>=3.1.6         # required by pyqtgraph.opengl (3D view)
+PyOpenGL-accelerate>=3.1.6
+
+# Computer Vision
+opencv-python-headless>=4.8.0   # use headless — Qt handles the window, not OpenCV
+numpy>=1.24.0
+
+# Serial Communication (OpenCR UART bridge)
+pyserial>=3.5
+
+# YOLOv8 export (only needed to generate yolov8n.engine on-device — optional at runtime)
+# ultralytics>=8.0.0
