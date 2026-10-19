@@ -7,6 +7,8 @@
 [![TensorRT](https://img.shields.io/badge/TensorRT-FP16-orange?logo=nvidia)](https://developer.nvidia.com/tensorrt)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
 
+<img width="1521" height="890" alt="image" src="https://github.com/user-attachments/assets/92aedace-bb3c-410b-bae7-3623af7ce302" />
+
 ---
 
 ## 📋 Table of Contents
