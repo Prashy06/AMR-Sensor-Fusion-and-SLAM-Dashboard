@@ -1,4 +1,5 @@
 # 🤖 AMR Sub-3D Sensor Fusion Dashboard
+AMR Sub-3D Sensor Fusion Dashboard is a real-time autonomous safety monitoring GUI designed to run on a NVIDIA Jetson Orin Nano.
 Jetson Orin Nano · ROS 2 Humble · TensorRT YOLOv8 · LiDAR LD-08 · Depth Anything V3
 
 [![ROS 2 Humble](https://img.shields.io/badge/ROS%202-Humble-blue?logo=ros)](https://docs.ros.org/en/humble/)
